@@ -1,7 +1,29 @@
 body {
     max-width: 45rem;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 2rem 1rem 0;
     line-height: 1.5;
     font-size: 1.05rem;
+}
+
+.intro {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.intro-photo {
+    width: 200px;
+    flex-shrink: 0;
+    height: auto;
+}
+
+.intro-text > :first-child {
+    margin-top: 0;
+}
+
+@media (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+    }
 }
