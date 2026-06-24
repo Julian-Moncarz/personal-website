@@ -4,17 +4,17 @@ html {
 
 body {
     line-height: 1.4;
-    font-size: 16px;
-    padding: 0 10px;
-    margin: 50px auto;
-    max-width: 650px;
+    font-size: 1.25rem;
+    padding: 0 0.75rem;
+    margin: 3.75rem auto;
+    max-width: 50rem;
 }
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 1.5rem auto;
 }
 
 body > :first-child {
@@ -28,7 +28,7 @@ body > :first-child {
 }
 
 .intro-photo {
-    width: 200px;
+    width: 250px;
     flex-shrink: 0;
     margin: 0;
 }
