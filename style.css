@@ -21,6 +21,10 @@ body > :first-child {
     margin-top: 0;
 }
 
+nav {
+    margin-bottom: 1.5rem;
+}
+
 .intro {
     display: flex;
     gap: 1.5rem;
