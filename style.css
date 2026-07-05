@@ -45,4 +45,8 @@ nav {
     .intro {
         flex-direction: column;
     }
+    .intro-photo {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
