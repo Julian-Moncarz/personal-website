@@ -25,12 +25,6 @@ nav {
     margin-bottom: 1.5rem;
 }
 
-/* Subpage headings: semantically h1, visually a bold paragraph */
-.page-title {
-    font-size: inherit;
-    margin: 1em 0;
-}
-
 .intro {
     display: flex;
     gap: 1.5rem;
