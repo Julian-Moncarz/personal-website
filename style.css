@@ -1,69 +1,10 @@
-@font-face {
-    font-family: 'Satoshi';
-    src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
-    font-weight: 300 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Satoshi';
-    src: url('/fonts/Satoshi-VariableItalic.woff2') format('woff2');
-    font-weight: 300 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-html {
-    scrollbar-gutter: stable;
-}
-
 body {
-    font-family: 'Satoshi', ui-sans-serif, system-ui, -apple-system, sans-serif;
-    line-height: 1.4;
-    font-size: 1.125rem;
-    padding: 0 0.75rem;
-    margin: 3.75rem auto;
-    max-width: 50rem;
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 0 1rem;
 }
 
 img {
+    width: 200px;
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1.5rem auto;
-}
-
-body > :first-child {
-    margin-top: 0;
-}
-
-nav {
-    margin-bottom: 1.5rem;
-}
-
-.intro {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-}
-
-.intro-photo {
-    width: 250px;
-    flex-shrink: 0;
-    margin: 0;
-}
-
-.intro-text > :first-child {
-    margin-top: 0;
-}
-
-@media (max-width: 480px) {
-    .intro {
-        flex-direction: column;
-    }
-    .intro-photo {
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
