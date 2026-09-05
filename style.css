@@ -7,12 +7,10 @@ body {
 }
 
 img.headshot {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
-    float: left;
-    margin: 0 1.25rem 1rem 0;
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 0 0 2rem;
 }
 
 h1 {
