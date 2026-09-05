@@ -6,13 +6,9 @@ body {
     line-height: 1.6;
 }
 
-img.headshot {
+.headshot {
     width: 160px;
     height: 160px;
     display: block;
-    margin: 0 0 2rem;
-}
-
-h1 {
-    font-weight: normal;
+    margin-bottom: 2rem;
 }
